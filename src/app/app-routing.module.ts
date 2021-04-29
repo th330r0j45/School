@@ -4,8 +4,7 @@ import { CharactersComponent } from './components/characters/characters.componen
 import { HousesComponent } from './components/houses/houses.component';
 
 const routes: Routes = [
-  {path: '', component: HousesComponent},
-  {path: 'characters', component: CharactersComponent}
+  {path: '', component: CharactersComponent}
 ];
 
 @NgModule({
